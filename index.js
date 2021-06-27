@@ -6,7 +6,8 @@ let count = 0;
 //let save = 0;
 let countEl = document.getElementById("count-el")
 let saveEl = document.getElementById("save-el")
-let space = " .. ";
+let sumEl = document.getElementById("sum-el")
+
 function increment() {
 	count += 1;
 
@@ -23,8 +24,13 @@ function decrement() {
 }
 
 function save() {
-	let countStr = count + "  ";
+	let countStr = count + "    ";
 	saveEl.textContent += countStr; 
 	count = 0;
 	countEl.textContent = count;
  }
+
+//  function runSum() {
+// 	let countStr = count + "    ";
+// 	sumEl.textContent += countStr; 
+// }
