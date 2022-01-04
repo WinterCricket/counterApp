@@ -8,6 +8,10 @@ let countEl = document.getElementById("count-el")
 let saveEl = document.getElementById("save-el")
 let sumEl = document.getElementById("sum-el")
 
+let hasBlackJack = false;
+let isAlive = true;
+let message = "";
+
 function increment() {
 	count += 1;
 
