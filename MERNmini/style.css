@@ -1,11 +1,29 @@
+* {
+  margin: 0;
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
 
+.header {
+  background-color: #283593;
+  color: rgb(250, 240, 240);
+  display: flex;
+  justify-content: space-between;
+}
+
 h1 {
-  color: gray;
   font-size: 3rem;
 }
+.nav a {
+  color: rgb(250, 240, 240);
+  text-decoration: none;
+}
+.nav {
+  list-style: none;
+  display: flex;
+}
+
 img {
   size: 1rem;
 }
