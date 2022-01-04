@@ -1,4 +1,11 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 h1 {
   color: gray;
   font-size: 3rem;
+}
+img {
+  size: 1rem;
 }
