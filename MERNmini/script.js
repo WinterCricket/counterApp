@@ -1,6 +1,8 @@
-const inputVal = document.getElementById("inputVal");
-const outputVal = document.querySelector("outputVal");
-let stringly = "";
-inputVal.addEventListener("input", function () {
-  stringly = stringly + stringly;
-});
+const inputVal = document.querySelector("#inputVal");
+const outputVal = document.querySelector("#outputVal");
+
+inputVal.addEventListener("input", addToInput);
+
+function addToInput() {
+  outputVal.innerText = inputVal.value + " is watching!";
+}
