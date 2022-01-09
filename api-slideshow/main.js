@@ -5,4 +5,15 @@ async function start() {
 }
 start();
 
-function createBreedList(breedList) {}
+function createBreedList(breedList) {
+  document.getElementById("breed").innerHTML = `
+  <select>
+  <option>Select Breed</option>
+  ${Object.keys(breedList)
+    .map(function (breed) {
+      return `<option>${breed}</option>`;
+    })
+    .join("")}
+</select>
+`;
+}
