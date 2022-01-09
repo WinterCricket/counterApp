@@ -7,7 +7,7 @@ start();
 
 function createBreedList(breedList) {
   document.getElementById("breed").innerHTML = `
-  <select>
+  <select onchange="loadByBreed(this.value)">
   <option>Select Breed</option>
   ${Object.keys(breedList)
     .map(function (breed) {
@@ -16,4 +16,12 @@ function createBreedList(breedList) {
     .join("")}
 </select>
 `;
+}
+
+async function loadByBreed(breed) {
+  if (breed !== "Select Breed") {
+    const response = await fetch(`https://dog.ceo/api/breed/${breed}/images`);
+    const data = await response.json();
+    console.log(data.message[0]);
+  }
 }
