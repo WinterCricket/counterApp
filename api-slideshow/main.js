@@ -22,8 +22,10 @@ async function loadByBreed(breed) {
   if (breed !== "Select Breed") {
     const response = await fetch(`https://dog.ceo/api/breed/${breed}/images`);
     const data = await response.json();
-    createSlideShow(data.message);
+    console.log(data.message);
   }
 }
 
-async function createSlideShow() {}
+function createSlideShow(images) {
+  console.log(images);
+}
