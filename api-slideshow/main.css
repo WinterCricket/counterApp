@@ -10,21 +10,19 @@ body {
 }
 
 .header {
-  text-align: center;
-  padding: 20px 0;
-  background-color: aquamarine;
+  /* text-align: center;
+  padding: 20px 0; */
 }
 
 .header h1 {
-  margin: 0 0 10px 0;
+  /* margin: 0 0 10px 0; */
 }
 .header select {
   font-size: 1rem;
 }
 .slideshow {
   flex: 1;
-  background-color: #333;
-  position: relative;
+  background-color: black;
 }
 .slide {
   position: absolute;
