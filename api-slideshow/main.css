@@ -10,12 +10,12 @@ body {
 }
 
 .header {
-  /* text-align: center;
-  padding: 20px 0; */
+  text-align: center;
+  padding: 20px 0;
 }
 
 .header h1 {
-  /* margin: 0 0 10px 0; */
+  margin: 0 0 10px 0;
 }
 .header select {
   font-size: 1rem;
@@ -30,5 +30,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: red;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
