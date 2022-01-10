@@ -21,7 +21,7 @@ body {
   font-size: 1rem;
 }
 .slideshow {
-  flex: 1;
+  flex: 1 100%;
   background-color: black;
 }
 .slide {
