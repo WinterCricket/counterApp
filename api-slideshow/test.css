@@ -1,15 +1,14 @@
-.bigDiv {
+#main {
   width: 100%;
   height: 100%;
-  border: 1px solid #c3c3c3;
+
   display: flex;
   flex-direction: column;
 }
-
-.abe {
+.a {
   background-color: coral;
 }
-.babe {
+.b {
   flex: 1;
-  background-color: khaki;
+  background-color: lightblue;
 }
