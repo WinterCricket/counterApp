@@ -10,6 +10,7 @@ body {
   flex: 60vh;
 
   background-color: #333;
+  position: relative;
 }
 
 .header {
@@ -30,8 +31,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  /* background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: contain;
-  background-position: center center; */
-  background-color: green;
+  background-position: center center;
 }
